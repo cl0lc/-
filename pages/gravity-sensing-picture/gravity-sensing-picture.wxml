@@ -1,0 +1,7 @@
+<view class="img-box">
+  <image class="img" style="transform: translate3d(0, {{y}}px, 0)" src="../../assets/building-img.jpg"/>
+</view>
+<view class="btn-group">
+  <button type="primary" disabled="{{startBtnState}}" bindtap="start">开始</button>
+  <button type="warn" disabled="{{endBtnState}}" bindtap="end">结束</button>
+</view>
