@@ -1,0 +1,28 @@
+/* 导航栏容器 */
+.navigation-wrapper{
+  padding: 0 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 导航栏按钮 */
+.navigation-btn{
+  display: flex;
+  align-items: center;
+}
+
+/* 图标 */
+.back,.home{
+  width: 24px;
+  height: 24px;
+}
+
+.back{
+  margin-right: 20rpx;
+}
+
+image{
+  width: 100%;
+  height: 100%;
+}
