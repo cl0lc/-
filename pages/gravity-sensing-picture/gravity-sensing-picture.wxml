@@ -1,3 +1,4 @@
+<custom-navigation title="重力感应图片"/>
 <view class="img-box">
   <image class="img" style="transform: translate3d(0, {{y}}px, 0)" src="../../assets/building-img.jpg"/>
 </view>

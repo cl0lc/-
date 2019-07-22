@@ -1,3 +1,4 @@
+<custom-navigation title="nav" showBtn="0"/>
 <view class="container nav-container">
   <navigator wx:for="{{navs}}" wx:key="{{index}}" url="{{item.url}}">
   {{item.title}}
