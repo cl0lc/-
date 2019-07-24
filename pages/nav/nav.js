@@ -6,7 +6,8 @@ Page({
    */
   data: {
     navs: [
-      { title: '重力感应图片', url: '/pages/gravity-sensing-picture/gravity-sensing-picture'}
+      { title: '重力感应图片', url: '/pages/gravity-sensing-picture/gravity-sensing-picture'},
+      { title: '分页列表', url: '/pages/list/list'}
     ]
   },
 
