@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "custom-navigation": "/components/custom-navigation/index"
+    "custom-navigation": "/components/custom-navigation/index",
+    "gravity-picture": "/components/gravity-picture/index"
   },
   "navigationBarTitleText": "重力感应移动图片"
 
