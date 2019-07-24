@@ -40,7 +40,7 @@ Component({
     },
     // 回到首页
     home: function(){
-      wx.reLaunch({
+      wx.switchTab({
         url: '/pages/index/index'
       })
     }
