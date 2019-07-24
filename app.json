@@ -2,9 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/gravity-sensing-picture/gravity-sensing-picture",
     "pages/nav/nav",
-    "pages/list/list"
+    "pages/gravity-sensing-picture/gravity-sensing-picture"
   ],
   "tabBar": {
     "color": "#8a8a8a",
