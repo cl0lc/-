@@ -1,3 +1,4 @@
 <view class="gravity-picture-container">
+  <slot></slot>
   <image class="gravity-picture" style="transform: translate3d(0, {{y}}px, 0)" src="{{src}}"/>
 </view>
