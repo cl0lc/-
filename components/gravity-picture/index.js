@@ -4,14 +4,8 @@ Component({
    */
   properties: {
     src: String,
-    y: Number
-  },
-
-  /**
- * 组件的初始数据
- */
-  data: {
-    minY: this.data.y * 2
+    y: Number,
+    minY: Number
   },
 
   // 外部样式
