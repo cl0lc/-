@@ -32,13 +32,16 @@ App({
           })
         }
       }
-    })
+    })    
+  },
 
+  onShow: function (options){
     // 判断小程序是否由分享进入小程序
     let scene = options.scene
-    if(scene === 1007 || scene === 1008){
+    console.log(scene)
+    if (scene === 1007 || scene === 1008) {
       this.globalData.share = true
-    }else{
+    } else {
       this.globalData.share = false
     }
 
@@ -49,10 +52,10 @@ App({
         // let model = res.model
         let system = res.system
         let navigationHeight = 0
-        if (system.indexOf('iOS') !== -1){
+        if (system.indexOf('iOS') !== -1) {
           // iOS
           navigationHeight = 42
-        }else{
+        } else {
           // 安卓
           navigationHeight = 48
         }
@@ -60,7 +63,6 @@ App({
         this.globalData.statusBarHeight = res.statusBarHeight // 状态栏高度
       }
     })
-    
   },
 
   globalData: {

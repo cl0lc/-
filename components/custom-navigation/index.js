@@ -1,6 +1,6 @@
 const app = getApp()
 let globalData = app.globalData
-
+console.log(globalData)
 Component({
   /**
    * 组件的属性列表
@@ -11,8 +11,8 @@ Component({
       type: Number,
       value: 1
     },
-    // 回退步数
-    backStep: {
+    // 回退层级
+    backLevel: {
       type: Number,
       value: 1
     }
@@ -33,14 +33,14 @@ Component({
   methods: {
     // 返回
     back: function(){
-      let backStep = this.data.backStep
+      let backLevel = this.data.backLevel
       wx.navigateBack({
-        delta: backStep
+        delta: backLevel
       })
     },
     // 回到首页
     home: function(){
-      wx.switchTab({
+      wx.reLaunch({
         url: '/pages/index/index'
       })
     }
