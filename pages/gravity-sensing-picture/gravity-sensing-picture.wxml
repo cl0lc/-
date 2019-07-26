@@ -1,2 +1,3 @@
 <custom-navigation title="重力感应图片"/>
 <gravity-picture y="-50" minY="-100" src="/assets/building-img.jpg" />
+<button class="share" type="primary" open-type="share">分享</button>
