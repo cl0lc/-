@@ -1,4 +1,4 @@
-// pages/nav/nav.js
+
 Page({
 
   /**
@@ -7,7 +7,8 @@ Page({
   data: {
     navs: [
       { title: '重力感应图片', url: '/pages/gravity-sensing-picture/gravity-sensing-picture'},
-      { title: '分页列表', url: '/pages/list/list'}
+      { title: '分页列表', url: '/pages/list/list'},
+      { title: '滑块', url: '/pages/slider/slider'}
     ]
   },
 
