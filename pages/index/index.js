@@ -46,6 +46,8 @@ Page({
         }
       })
     }
+
+    app.globalData.share = false
   },
   getUserInfo: function(e) {
     console.log(e)
