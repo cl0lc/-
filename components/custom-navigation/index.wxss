@@ -10,12 +10,16 @@
 .navigation-btn{
   display: flex;
   align-items: center;
+  height: 28px;
+  padding: 0 10rpx;
+  border-radius: 10px;
+  border: 1px solid #999;
 }
 
 /* 图标 */
 .back,.home{
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
 }
 
 .back{

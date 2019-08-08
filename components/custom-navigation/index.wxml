@@ -1,18 +1,16 @@
 <!-- 自定义头部导航栏 -->
 <view class="navigation-wrapper" style="margin-top: {{statusBarHeight}}px; height: {{navigationHeight}}px">
   <!-- 导航栏左侧按钮 -->
-  <view class="navigation-btn">
-    <block wx:if="{{showBtn}}">
-      <view wx:if="{{!share}}" class="back" bindtap="back">
-        <image src="../../assets/back.png" />
-      </view>
-      <view class="home" bindtap="home">
-        <image src="../../assets/home.png" />
-      </view>
-    </block>
-    <!-- 充数，适应space-between布局 -->
-    <view class="hide" wx:else>&nbsp;</view>
+  <view class="navigation-btn" wx:if="{{showBtn}}">
+    <view wx:if="{{!share}}" class="back" bindtap="back">
+      <image src="../../assets/back.png" />
+    </view>
+    <view class="home" bindtap="home">
+      <image src="../../assets/home.png" />
+    </view>
   </view>
+  <!-- 充数，适应space-between布局 -->
+  <view class="hide" wx:else>&nbsp;</view>
   <!-- 导航栏标题 -->
   <view class="navigation-title">{{title}}</view>
   <!-- 充数，适应space-between布局 -->
