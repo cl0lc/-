@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/nav/nav",
-    "pages/gravity-sensing-picture/gravity-sensing-picture"
+    "pages/gravity-sensing-picture/gravity-sensing-picture",
+    "pages/slider/slider"
   ],
   "tabBar": {
     "color": "#8a8a8a",

@@ -1,4 +1,3 @@
-//app.js
 App({
   onLaunch: function(options) {
     // 展示本地存储能力
@@ -38,7 +37,7 @@ App({
   onShow: function (options){
     // 判断小程序是否由分享进入小程序
     let scene = options.scene
-    console.log(scene)
+    // console.log(scene)
     if (scene === 1007 || scene === 1008) {
       this.globalData.share = true
     } else {
