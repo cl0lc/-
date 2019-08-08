@@ -1,0 +1,11 @@
+<view class="slider slider-class">
+  <!-- 滑块按钮 -->
+  <view class="slider-btn" style="background-color: {{btnColor}}; left: {{left}}px;"  bindtouchmove="minValChange">L</view>
+  <view class="slider-btn" style="background-color: {{btnColor}}; right: {{right}}px;" bindtouchmove="maxValChange">R</view>
+  <!-- 滑块主体 -->
+  <view class="slider-body">
+    <view class="slider-body-right" style="background-color: {{bgColor}}; width: {{left}}px;"></view>
+    <view class="slider-body-mid" style="background-color: {{activeBgColor}};"></view>
+    <view class="slider-body-left" style="background-color: {{bgColor}}; width: {{right}}px;"></view>
+  </view>
+</view>

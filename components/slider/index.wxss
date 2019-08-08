@@ -1,0 +1,23 @@
+.slider{
+  position: relative;
+}
+
+.slider-btn{
+  width: 40rpx;
+  height: 40rpx;
+  color: #FFF;
+  text-align: center;
+  line-height: 40rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: -20rpx;
+}
+
+.slider-body{
+  height: 1px;
+  display: flex;
+}
+
+.slider-body-mid{
+  flex: 1;
+}

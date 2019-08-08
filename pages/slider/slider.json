@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "custom-navigation": "/components/custom-navigation/index",
+    "slider-price": "/components/slider/index"
+  }
+}

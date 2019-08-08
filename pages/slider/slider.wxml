@@ -1,0 +1,4 @@
+<custom-navigation title="滑块" />
+<slider-price slider-class="price-slider" min="100" max="1000" minValue="{{price[0]}}" maxValue="{{price[1]}}" bindvalChange="valChange"/>
+<view style="text-align: center;">{{price}}</view>
+
