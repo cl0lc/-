@@ -1,0 +1,13 @@
+<custom-navigation title="tab" showBtn="0" />
+<view class="swiper-title">
+  <view class="swiper-title-item {{index === 0 ? 'active': ''}}" data-index="0" bindtap="changeItem">1</view>
+  <view class="swiper-title-item {{index === 1 ? 'active': ''}}" data-index="1" bindtap="changeItem">2</view>
+  <view class="swiper-title-item {{index === 2 ? 'active': ''}}" data-index="2" bindtap="changeItem">3</view>
+  <view class="swiper-title-item {{index === 3 ? 'active': ''}}" data-index="3" bindtap="changeItem">4</view>
+</view>
+<swiper current="{{index}}" bindchange="swiperChange">
+  <swiper-item>1</swiper-item>
+  <swiper-item>2</swiper-item>
+  <swiper-item>3</swiper-item>
+  <swiper-item>4</swiper-item>
+</swiper>

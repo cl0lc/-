@@ -1,0 +1,13 @@
+.swiper-title{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.swiper-title-item{
+  flex: 1;
+}
+
+.swiper-title-item.active{
+  border-bottom: 1px solid red;
+}
